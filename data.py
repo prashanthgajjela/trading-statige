@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt 
 
-go = pd.read_csv(r"C:\Users\gourishankar\OneDrive\Desktop\pands\chintu.csv")
+go = pd.read_csv(r"C:\Users\91818\OneDrive\Desktop\New folder\chintu - in.csv")
 
 go = go.set_index(pd.DatetimeIndex(go["datetime"].values))
 
